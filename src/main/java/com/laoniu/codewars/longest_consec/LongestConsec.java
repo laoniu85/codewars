@@ -1,4 +1,4 @@
-package com.laoniu.codewars;
+package com.laoniu.codewars.longest_consec;
 
 import java.util.Arrays;
 
