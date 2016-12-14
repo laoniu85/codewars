@@ -15,4 +15,11 @@ public class PowerSumDigTest {
         testing(PowerSumDig.powerSumDigTerm(3), 2401);
         testing(PowerSumDig.powerSumDigTerm(4), 4913);
     }
+
+    @Test
+    public void test2(){
+        assertEquals(17,PowerSumDig.sumBit(4913));
+        assertEquals(4,PowerSumDig.countBit(4913));
+        assertEquals(PowerSumDig.pow(17,3),4913);
+    }
 }
